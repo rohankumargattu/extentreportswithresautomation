@@ -33,7 +33,7 @@ public class ExtentreportsWithResultsAutomation
 		driver.manage().window().maximize();
 		//Get title
 		String title=driver.getTitle();
-		if(title.contains("flipkart"))
+		if(title.contains("Amazon"))
 		{
 			et.log(LogStatus.PASS,"Amazon Title test passed");
 		}
